@@ -7,6 +7,7 @@ package com.mycompany.newmavenproject;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JButton;
+import javax.swing.JTextField;
 import java.awt.event.*;
 
 public class NewMavenProject {
@@ -22,6 +23,10 @@ public class NewMavenProject {
         
         JButton btnAbrir = new JButton("Abrir");
         btnAbrir.setBounds(140, 170, 160, 30);
+        
+        JTextField Campotexto = new JTextField(20);
+        Campotexto.setVisible(true);
+        Campotexto.setSize(300, 30);
         
         Janela01.add(Texto);
         Janela01.add(btnAbrir);
